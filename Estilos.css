@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+body{
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-image: url(Images/9205375.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 120px;
+    color:white;
+    background-color: #003169;
+    background-position: top;
+}
+.noticias{
+    width:0%;
+    position:static;
+}
