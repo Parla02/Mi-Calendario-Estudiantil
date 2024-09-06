@@ -8,20 +8,45 @@ body {
     background-size: cover;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main main right'
+
+}
+
 h1 {
-    font-size: 120px;
+    font-size: 700%;
     color: white;
     background-color: #003169;
     background-position: top;
 }
 
+.item1 {
+    grid-area: header;
+}
+
+.noticias {
+    grid-area: right;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.noticias a:link,
+.noticias a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
 .noticias img {
-    width: 490px;
+    width: 85%;
 
 }
 
 h3 {
-    font-size: 35px;
+    font-size: 160%;
 
 }
 
@@ -29,13 +54,10 @@ h3 {
     width: 35px
 }
 
-.item1 {
-    grid-area: header;
-}
-
 .iconos {
     grid-area: menu;
     background-color: white;
+    font-size: 100%;
 }
 
 .iconos a:link,
@@ -47,27 +69,7 @@ h3 {
 .item3 {
     grid-area: main;
 
-    font-size: 75px;
-}
-
-.noticias {
-    grid-area: right;
-    background-color: white;
-    color: black;
-}
-
-.noticias a:link,
-.noticias a:visited {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
-.grid-container {
-    display: grid;
-    grid-template-areas:
-        'header header header header header header'
-        'menu main main main main right'
-
+    font-size: 600%;
 }
 
 main a:link,
@@ -79,4 +81,14 @@ main a:visited {
     border: 1px solid white;
     border-radius: 10%;
     padding: 20px;
+}
+
+.noti {
+    font-size: 0.35em;
+    background-color: white;
+    text-align: center;
+}
+
+.noti img {
+    width: 75%;
 }
