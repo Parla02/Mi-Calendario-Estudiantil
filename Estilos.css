@@ -1,19 +1,82 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
-body{
+
+body {
     font-family: "Rowdies", sans-serif;
     font-weight: 300;
     font-style: normal;
     background-image: url(Images/9205375.jpg);
     background-size: cover;
 }
-h1{
+
+h1 {
     font-size: 120px;
-    color:white;
+    color: white;
     background-color: #003169;
     background-position: top;
 }
-.noticias{
-    width:0%;
-    position:static;
+
+.noticias img {
+    width: 490px;
+
+}
+
+h3 {
+    font-size: 35px;
+
+}
+
+.iconos img {
+    width: 35px
+}
+
+.item1 {
+    grid-area: header;
+}
+
+.iconos {
+    grid-area: menu;
+    background-color: white;
+}
+
+.iconos a:link,
+.iconos a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.item3 {
+    grid-area: main;
+
+    font-size: 75px;
+}
+
+.noticias {
+    grid-area: right;
+    background-color: white;
+    color: black;
+}
+
+.noticias a:link,
+.noticias a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main main right'
+
+}
+
+main a:link,
+main a:visited {
+    color: white;
+    background-color: #003169;
+    margin: 15px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 20px;
 }
