@@ -20,11 +20,12 @@ h1 {
     font-size: 700%;
     color: white;
     background-color: #003169;
-    background-position: top;
+    margin: 0%;
 }
 
 .item1 {
     grid-area: header;
+
 }
 
 .noticias {
@@ -66,7 +67,7 @@ h3 {
 
 .iconos {
     grid-area: menu;
-    background-color: rgb(167, 167, 167);
+    background-color: rgb(204, 204, 204);
     font-size: 110%;
 }
 
@@ -83,7 +84,7 @@ h3 {
 
 .item3 {
     grid-area: main;
-    font-size: 600%;
+    font-size: 580%;
 }
 
 main.item3 a:link,
@@ -110,14 +111,13 @@ main.item3 a:visited {
 .main-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #003169;
     padding: 3%;
     column-gap: 5%;
     row-gap: 10%;
 }
 
 .main-container>div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0);
     text-align: center;
     padding: 35% 0;
     font-size: 60%;
@@ -130,7 +130,43 @@ main.item3 a:visited {
         'menu main main main main main';
 }
 
-.main-container a:link,
-.main-container a:visited {
-    background-color: none !important;
+#Secciones {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#Seccions td,
+#Secciones th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#Secciones tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#Seccioness tr:hover {
+    background-color: #ddd;
+}
+
+#Secciones th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #003169;
+    color: white;
+}
+
+table#Secciones {
+    background-color: white;
+    width: 250%;
+}
+
+table#Secciones td {
+    height: 15px;
+}
+
+ul.b {
+    list-style-type: square;
 }
