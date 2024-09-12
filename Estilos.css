@@ -32,6 +32,7 @@ h1 {
     grid-area: right;
     color: black;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.671);
 }
 
 .noticias a:link,
@@ -41,15 +42,14 @@ h1 {
 }
 
 .noticias img {
-    width: 50%;
-    height: 35%;
+    width: 75%;
+    height: 45%;
     object-fit: cover;
+    margin-top: 100px;
 }
 
 h3 {
     font-size: 150%;
-    background-color: white;
-
 }
 
 .menu {
@@ -100,7 +100,7 @@ main.item3 a:visited {
 
 .noti {
     font-size: 0.35em;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.753);
     text-align: center;
 }
 
@@ -169,4 +169,8 @@ table#Secciones td {
 
 ul.b {
     list-style-type: square;
+}
+
+.primaria {
+    font-size: 485%;
 }
